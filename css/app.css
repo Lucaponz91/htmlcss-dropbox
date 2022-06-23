@@ -84,3 +84,21 @@ li {
 .col-right-hero img {
     max-width: 100%;
 }
+
+.body-main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.body-main h2 {
+    font-size: 45px;
+    padding-top: 152px;
+    padding-bottom: 43px;
+}
+
+.radio {
+    cursor: pointer;
+}
+#spacing {
+    padding-right: 40px;
+}
