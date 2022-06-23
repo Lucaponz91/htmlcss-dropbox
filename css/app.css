@@ -99,6 +99,15 @@ li {
 .radio {
     cursor: pointer;
 }
+
 #spacing {
     padding-right: 40px;
+}
+
+.row-body-main {
+    display: flex;
+}
+
+.card {
+    border: 1px grey solid;
 }
