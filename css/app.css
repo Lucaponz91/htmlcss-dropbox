@@ -225,3 +225,19 @@ li {
     padding: 10px 30px 10px 30px;
     text-align: center;
 }
+
+.sezione-partner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+
+}
+
+.col-left {
+    width: calc(( 100% / 5) * 3);
+}
+
+.col-left img {
+    aspect-ratio: auto 691 / 591;
+    width: 100%;
+}
