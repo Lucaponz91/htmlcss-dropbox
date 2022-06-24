@@ -125,3 +125,55 @@ li {
 .card-main div {
     border: 1px black solid;
 }
+
+.card-main-top {
+    padding: 25px;
+}
+
+.card-main-top h3 {
+    padding-bottom: 20px;
+}
+
+.price {
+    padding-bottom: 17px;
+}
+
+.period {
+    padding-bottom: 50px;
+
+}
+
+.card-main-top li {
+    padding-bottom: 20px;
+}
+
+.card-main-top p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.card .button {
+    background-color: #0061FF;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 9px 0px 10px 0px;
+    text-align: center;
+}
+
+.highlight {
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+.fa-check {
+    color: #0061FF;
+}
+
+.card-header h5 {
+    text-align: center;
+    padding: 11px;
+    font-weight: 400;
+    font-size: 16px;
+    border-bottom: 1px black solid;
+}
