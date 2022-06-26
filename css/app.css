@@ -8,6 +8,7 @@
 header {
     max-width: 1920px;
     height: 80px;
+    margin: auto;
 }
 
 li {
@@ -46,6 +47,7 @@ li {
 .hero {
     max-width: 1920px;
     height: 740px;
+    margin: auto;
     background-color: #B4D0E7;
 }
 
@@ -294,4 +296,31 @@ li {
 
 .img-business {
     width: 300px;
+}
+
+.body-bottom {
+    max-width: 1920px;
+}
+
+.row-clienti {
+    width: 1920px;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.row-clienti .img-container {
+    width: 320px;
+    height: 320px;
+}
+
+div[class^="loghi-clienti"], .dettaglio-clienti {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100%/3);
+
+}
+
+div[class^="loghi-clienti"] img {
+    width: 166px;
 }
