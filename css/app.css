@@ -267,3 +267,27 @@ li {
     font-size: 18px;
     padding: 13px 17px 13px 17px;
 }
+
+.card-row-business {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 60px;
+    margin-bottom: 190px;
+}
+
+.card-business {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.card-business h3 {
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.img-business {
+    width: 300px;
+}
