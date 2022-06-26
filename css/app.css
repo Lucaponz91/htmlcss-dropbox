@@ -8,7 +8,6 @@
 header {
     max-width: 1920px;
     height: 80px;
-    border: 1px dashed black;
 }
 
 li {
@@ -50,6 +49,10 @@ li {
     background-color: #B4D0E7;
 }
 
+.hero button{
+    font-size: 16px;
+}
+
 .hero h1 {
     max-width: 1200px;
     font-size: 76px;
@@ -79,7 +82,8 @@ li {
 }
 
 .col-left-hero i {
-    padding-top: 30px;
+    padding-top: 3px;
+    font-size: 45px;
 }
 .col-right-hero img {
     max-width: 100%;
