@@ -343,6 +343,32 @@ div[class^="loghi-clienti"], .dettaglio-clienti {
     filter: invert(1);
 }
 
+/* .img-container:hover {    HOVER ROTTO
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border: 20px solid rgba(0, 0, 0, 0.5)
+} */
+
+.loghi-clienti-left{
+    position: relative;
+}
+
+ #designit::after { 
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border: 20px #2E1632 solid;
+} 
+
 div[class^="loghi-clienti"] img {
     width: 166px;
 }
