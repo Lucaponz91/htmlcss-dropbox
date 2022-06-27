@@ -300,27 +300,130 @@ li {
 
 .body-bottom {
     max-width: 1920px;
+    margin: auto;
 }
 
+.header-clienti {
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 125px;
+}
+
+
 .row-clienti {
-    width: 1920px;
+    max-width: 1920px;
     display: flex;
-    flex-grow: 1;
-    flex-basis: 0;
+}
+
+.header-clienti h2 {
+    font-size: 45px;
+    padding-bottom: 75px;
+}
+
+.header-clienti a {
+    font-size: 21px;
 }
 
 .row-clienti .img-container {
-    width: 320px;
+    width: 50%;
     height: 320px;
 }
 
 div[class^="loghi-clienti"], .dettaglio-clienti {
     display: flex;
     flex-wrap: wrap;
-    width: calc(100%/3);
+    width: calc(1920px / 3);
+    
+}
 
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: invert(1);
 }
 
 div[class^="loghi-clienti"] img {
     width: 166px;
 }
+
+.dettaglio-clienti p {
+    font-size: 20px
+}
+
+.dettaglio-clienti img {
+    width: 270px;
+}
+
+/* Colori loghi */
+.dettaglio-clienti{
+    background-color: #F5F5F5;
+    padding-inline: 50px;
+}
+#designit{
+    background-color: #5D2C64;
+}
+#arizona{
+    background-color: #9EF7D4;
+}
+#florida{
+    background-color: #FF6C31;
+}
+#topps{
+    background-color: #00E3E3;
+}
+#bicycle{
+    background-color: #2AFFE0;
+}
+#hearst{
+    background-color: #4B2F18;
+}
+#lonelupl{
+    background-color: #F2DB7E;
+}
+#clearch{
+    background-color: #0027CF;
+}
+
+
+.footer-clienti {
+    background-color: #B4D0E7;
+}
+
+.container-col-clienti{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    height: 357px;
+}
+
+.col-left-clienti{
+    width: 50%;
+}
+
+.col-left-clienti h2{
+    color: #61082B;
+    margin: auto;
+    font-size: 44px;
+}
+
+.col-right-clienti a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 14px 41px 14px 41px;
+}
+
+.sezione-faq {
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 165px;
+    padding-bottom: 165px;
+}
+
+.faq h2{
+    font-size: 44px;
+}
+
