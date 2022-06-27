@@ -427,3 +427,39 @@ div[class^="loghi-clienti"] img {
     font-size: 44px;
 }
 
+footer{
+    max-width: 1920px;
+    background-color: black;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 106px;
+    padding-top: 105px;
+}
+
+.footer-pedice button {
+    background-color: black;
+    color: #939898;
+}
+
+.col-footer h4 {
+    margin-bottom: 30px;
+}
+
+.footer-pedice {
+    max-width: 1200px;
+    margin: auto;
+}
+.footer-pedice hr{
+    border-color: #939898;
+    width: 10%;
+}
+.col-footer li {
+    margin-bottom: 17px;
+    font-size: 14px;
+}
