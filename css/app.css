@@ -351,6 +351,15 @@ div[class^="loghi-clienti"] img {
     font-size: 20px
 }
 
+.quote::before {
+    content: '';
+    height: 1px;
+    background-color: darkgray;
+    width: 108px;
+    display: block;
+    margin-bottom: 40px;
+}
+
 .dettaglio-clienti img {
     width: 270px;
 }
@@ -425,6 +434,19 @@ div[class^="loghi-clienti"] img {
 
 .faq h2{
     font-size: 44px;
+    padding-bottom: 50px;
+}
+
+.faq > * {
+    border-bottom: 1px solid #C5C5C5;
+    line-height: 106px;
+    position: relative;
+}
+
+.faq i {
+    position: absolute;
+    right: 5%;
+    bottom: 50%;
 }
 
 footer{
