@@ -155,6 +155,11 @@ li {
 
 }
 
+.card-main ul .pros {
+    display: flex;
+    gap: 5px;
+}
+
 .card-main-top li {
     padding-bottom: 20px;
 }
